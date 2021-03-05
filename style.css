@@ -1,8 +1,22 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 172, 155);
+    
+
+    
+  
 }
 h1{
     font-size: 50px;
+}
+.ex{
+    
+}
+h3{
+    color: teal;
+}
+p{
+    color: slategray;
 }
 .name-highlight{
     color: orange;
@@ -12,12 +26,15 @@ h1{
     float:left;
     margin-left:4%;
     margin-top: 4%;
-    padding-left: 5%;
-    padding-top: 5%;
+    margin-left: 4%;
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 .half img{
     width: 75%;
 }
+
 .click-button{
     text-decoration: none;
     background-image: linear-gradient(lightSalmon,tomato);
@@ -26,3 +43,37 @@ h1{
     font-weight: 700%;
     border-radius: 10%;
 }
+.fst-banner{
+    
+    clear: both;
+}
+.first-section{
+    background: url('images/top-banner.png');
+    background-repeat:no-repeat ;
+}
+.experiance{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    margin-bottom: 10%;
+    border-radius: 5%;
+}
+.exp-area{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+#professional{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#noob{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
